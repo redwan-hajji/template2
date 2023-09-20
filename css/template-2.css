@@ -288,41 +288,7 @@ position: absolute;
 top:50%;
 transform: translateY(-50%);
 }
-.landing .change-bg{
-  color: white;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 25px;
-  padding: 10px;
-}
-.landing .fa-angle-right {
-right: 20px;
-}
-.landing .fa-angle-left{
-  left: 20px;
-}
-.landing .points{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: row;
-  bottom: 20px;
-}
-.landing .points li{
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 1px solid white;
-}
-.landing .points li.active{
-  background-color: var(--maincolor);
-  /* border-color: var(--maincolor); */
-}
-.landing .points li:not(:last-child){
-  margin-right: 7px;
-}
+
 /* end landing */
 /* ------------------------------------------------------------------------------------- */
 /* start services */
