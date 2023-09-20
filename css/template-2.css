@@ -164,6 +164,7 @@ header nav{
 }
 header nav .toggle-menu{
  font-size: 22px;
+ cursor: pointer;
 }
 header nav ul{
  display: flex;
@@ -172,7 +173,7 @@ header nav ul{
 header nav ul {
  display: none;
 }
-header nav .toggle-menu:hover + ul {
+.links_show {
  display: flex;
  flex-direction: column;
  position: absolute;
@@ -181,7 +182,7 @@ header nav .toggle-menu:hover + ul {
  width: 100%;
  background-color: rgba(51, 59, 59, 0.8);
 }
-header nav .toggle-menu:hover+ul li a{
+header nav  ul li a{
  padding:15px !important;
 }
 }
@@ -288,7 +289,9 @@ position: absolute;
 top:50%;
 transform: translateY(-50%);
 }
-
+.landing .points li:not(:last-child){
+  margin-right: 7px;
+}
 /* end landing */
 /* ------------------------------------------------------------------------------------- */
 /* start services */
